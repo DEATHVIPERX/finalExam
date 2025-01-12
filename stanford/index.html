@@ -4,28 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stanford University</title>
-    <link rel="icon" href="images/favicon.ico"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <header class="site-header">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="#" class="logo">
-                <img src="images/" alt="Stanford University">
-            </a>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                Stanford University
+            </div>
             <nav class="navbar">
-                <ul class="nav-list d-flex">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Academics</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Campus Life</a></li>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#campus-life">Campus Life</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stanford</h1>
+        </div>
+    </section>
+    <section class="societal-mission">
+        <div class="container">
+            <h2>A Societal Mission</h2>
+            <p>
+                Stanford was founded almost 150 years ago on a bedrock of societal purpose. 
+                Our mission is to contribute to the world by educating students for lives of 
+                leadership and contribution with integrity; advancing fundamental knowledge 
+                and cultivating creativity; leading in pioneering research for effective 
+                clinical therapies; and accelerating solutions and amplifying their impact.
+            </p>
+            <a href="#" class="btn">More about Stanford</a>
+        </div>
+    </section>
+    <section class="campus-news">
+        <div class="container">
+            <h2>Campus News</h2>
+            <p>Stories about people, research, and innovation across the Farm</p>
+            <div class="news-grid">
+                <div class="news-item large">
+                    <img src="images/wild fires.webp" alt="Wildfire">
+                    <div class="news-content">
+                        <span>Earth & Climate</span>
+                        <h3>What we know about the health effects of wildfire</h3>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/lungs.webp" alt="Health">
+                    <div class="news-content">
+                        <span>Health & Medicine</span>
+                        <h3>New AI model predicts cancer prognosis, response to treatment</h3>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/housing.webp" alt="Economics">
+                    <div class="news-content">
+                        <span>Economics</span>
+                        <h3>Guaranteed income can lower household spending while reducing debt</h3>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/health1.webp" alt="Diabetes">
+                    <div class="news-content">
+                        <span>Health & Medicine</span>
+                        <h3>AI helps identify the biology underlying Type 2 diabetes</h3>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/health 2.webp" alt="Stanford">
+                    <div class="news-content">
+                        <span>Institutional News</span>
+                        <h3>Report outlines Stanford principles for use of AI</h3>
+                    </div>
+                </div>
+                <div class="news-item large">
+                    <img src="images/5books.webp" alt="Books">
+                    <div class="news-content">
+                        <span>Social Sciences</span>
+                        <h3>Five books to help you disagree productively in 2025</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <main class="main-content">
+        <section class="featured">
+            <h2>Featured News</h2>
+            <p>Highlighting groundbreaking research and university achievements.</p>
+        </section>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <p>Check out the latest events happening on campus.</p>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Stanford University | Privacy Policy | Accessibility</p>
+        </div>
+    </footer>
 </body>
 </html>

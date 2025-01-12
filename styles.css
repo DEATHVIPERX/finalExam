@@ -315,6 +315,11 @@ h2 {
         font-size: 0.8rem;
     }
 }
+@media (max-width: 180px) {
+      h1{
+        font-size: 3rem;
+    }
+}
 @media (max-width: 768px) {
     .societal-mission h2 {
         font-size: 1.5rem;
